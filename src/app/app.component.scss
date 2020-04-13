@@ -1,0 +1,29 @@
+.page-header {
+  padding: 20px;
+  background-color: rgb(184, 113, 113);
+  display: flex;
+  width: 900px;
+  margin: 0 auto;
+
+  .page-title {
+    flex: 0 0 auto;
+  }
+
+  .page-tabs {
+    flex: 1 0 auto;
+  }
+
+  .page-toolbar {
+    flex: 0 0 auto;
+  }
+}
+
+.flex-spacer {
+  flex: 1 1 auto;
+}
+
+.page-content {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
